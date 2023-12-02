@@ -1,0 +1,11 @@
+name: BEYOND
+version: '${project.version}'
+main: bsh.beyond.beyond.BEYOND
+api-version: 1.20
+prefix: [ BEYOND ]
+authors: [ BigSamHam ]
+commands:
+  beyond:
+    description: Controls the BEYOND plugin features.
+    usage: "/<command> <mvision|verbose> <playerName>"
+    aliases: [ bv ]
